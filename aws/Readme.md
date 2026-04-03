@@ -7,6 +7,8 @@ Go to the official Terraform downloads page:
 https://developer.hashicorp.com/terraform/downloads
 Download the Windows (AMD64) version.
 Extract the ZIP file to get terraform.exe.
+<img width="2962" height="1400" alt="image" src="https://github.com/user-attachments/assets/14b1a8c3-6e11-4261-bccd-7ac124df023d" />
+
 
 
 **Option 1:** Move Terraform to a central folder
