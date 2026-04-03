@@ -2,7 +2,7 @@ terraform {
   required_providers {
     aws = {
       source  = "hashicorp/aws"
-      version = "~> 4.16"
+      version = "~> 6.0"
     }
   }
 
@@ -19,5 +19,14 @@ resource "aws_instance" "app_server" {
 
   tags = {
     Name = "Terraform_Demo"
+  }
+}
+
+resource "aws_instance" "test" {
+  ami           = data.aws_ami.ubuntu.id
+  instance_type = "t3.micro"
+
+  tags = {
+    Name = "HelloWorld"
   }
 }
