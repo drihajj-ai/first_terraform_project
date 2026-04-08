@@ -14,19 +14,10 @@ provider "aws" {
 }
 
 resource "aws_instance" "app_server" {
-  ami           = "ami-830c94e3"
-  instance_type = "t2.micro"
-
-  tags = {
-    Name = "Terraform_Demo"
-  }
-}
-
-resource "aws_instance" "test" {
-  ami           = data.aws_ami.ubuntu.id
+  ami           = "ami-077d1b9f9a1902bbc"
   instance_type = "t3.micro"
 
   tags = {
-    Name = "HelloWorld"
+    Name = "Terraform_Demo"
   }
 }
