@@ -53,3 +53,13 @@ terraform -version
 
 If everything is set correctly, it should display the installed Terraform version.
 
+
+
+
+# Dry-run
+terraform init
+terraform plan
+
+# apply the change
+terraform apply
+
