@@ -58,6 +58,7 @@ If everything is set correctly, it should display the installed Terraform versio
 
 # Dry-run
 terraform init
+
 terraform plan
 
 # apply the change
